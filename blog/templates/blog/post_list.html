@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>All Posts</h1>
+{% for post in posts %}
+    {{ post.title }} - {{ post.text }} <br>
+{% endfor %}
+</body>
+</html>
